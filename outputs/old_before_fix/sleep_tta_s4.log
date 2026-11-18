@@ -1,0 +1,3 @@
+seed 4 SC-mid  (580s)  source 0.674  bn 0.626  tent 0.623  shot 0.634  jump 0.632  teach 0.640  teach+hmm 0.689
+seed 4 SC-old  (659s)  source 0.590  bn 0.505  tent 0.495  shot 0.518  jump 0.510  teach 0.526  teach+hmm 0.569
+seed 4 ST      (2097s)  source 0.598  bn 0.603  tent 0.608  shot 0.599  jump 0.616  teach 0.618  teach+hmm 0.658

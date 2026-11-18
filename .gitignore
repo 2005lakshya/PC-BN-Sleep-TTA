@@ -1,0 +1,7 @@
+# data is downloaded with `python -m data.sleepedf` (about 1 GB), not stored in git
+data/raw/
+data/cache/
+data/sleep_cache/
+__pycache__/
+*.pyc
+~$*

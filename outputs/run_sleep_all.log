@@ -1,0 +1,144 @@
+  tent      lr 0.0003 steps 20 lam 1: 0.6069
+  tent      lr 0.0003 steps 60 lam 1: 0.5815
+  tent      lr 0.001 steps 20 lam 1: 0.5774
+  tent      lr 0.001 steps 60 lam 1: 0.5365
+  tent      lr 0.003 steps 20 lam 1: 0.5291
+  tent      lr 0.003 steps 60 lam 1: 0.5274
+  shot_im   lr 0.0003 steps 20 lam 1: 0.6129
+  shot_im   lr 0.0003 steps 60 lam 1: 0.5981
+  shot_im   lr 0.001 steps 20 lam 1: 0.5924
+  shot_im   lr 0.001 steps 60 lam 1: 0.5540
+  shot_im   lr 0.003 steps 20 lam 1: 0.5383
+  shot_im   lr 0.003 steps 60 lam 1: 0.5467
+  ent_prior lr 0.0003 steps 20 lam 1: 0.6054
+  ent_prior lr 0.0003 steps 60 lam 1: 0.5845
+  ent_prior lr 0.001 steps 20 lam 1: 0.5800
+  ent_prior lr 0.001 steps 60 lam 1: 0.5437
+  ent_prior lr 0.003 steps 20 lam 1: 0.5311
+  ent_prior lr 0.003 steps 60 lam 1: 0.5339
+  jump      lr 0.0003 steps 20 lam 0.3: 0.6100
+  jump      lr 0.0003 steps 20 lam 1: 0.6113
+  jump      lr 0.0003 steps 20 lam 3: 0.6109
+  jump      lr 0.0003 steps 60 lam 0.3: 0.5966
+  jump      lr 0.0003 steps 60 lam 1: 0.5975
+  jump      lr 0.0003 steps 60 lam 3: 0.5912
+  jump      lr 0.001 steps 20 lam 0.3: 0.5930
+  jump      lr 0.001 steps 20 lam 1: 0.5870
+  jump      lr 0.001 steps 20 lam 3: 0.5802
+  jump      lr 0.001 steps 60 lam 0.3: 0.5724
+  jump      lr 0.001 steps 60 lam 1: 0.5599
+  jump      lr 0.001 steps 60 lam 3: 0.5390
+  jump      lr 0.003 steps 20 lam 0.3: 0.5618
+  jump      lr 0.003 steps 20 lam 1: 0.5419
+  jump      lr 0.003 steps 20 lam 3: 0.5213
+  jump      lr 0.003 steps 60 lam 0.3: 0.5621
+  jump      lr 0.003 steps 60 lam 1: 0.5498
+  jump      lr 0.003 steps 60 lam 3: 0.5165
+  hmm_teach lr 0.0003 steps 20 lam 1: 0.6201
+  hmm_teach lr 0.0003 steps 60 lam 1: 0.6177
+  hmm_teach lr 0.001 steps 20 lam 1: 0.6175
+  hmm_teach lr 0.001 steps 60 lam 1: 0.4931
+  hmm_teach lr 0.003 steps 20 lam 1: 0.5493
+  hmm_teach lr 0.003 steps 60 lam 1: 0.3120
+  hmm_dwell kappa 5: 0.6400
+  hmm_dwell kappa 20: 0.6406
+  hmm_dwell kappa 80: 0.6432
+{
+ "tent": {
+  "lr": 0.0003,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "shot_im": {
+  "lr": 0.0003,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "ent_prior": {
+  "lr": 0.0003,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "jump": {
+  "lr": 0.0003,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "hmm_teach": {
+  "lr": 0.0003,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "source": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "bn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "pcbn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "pcbn_iid": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "ubbn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "alpha_bn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ }
+}
+  alpha_bn  alpha 0.25: 0.6369
+  alpha_bn  alpha 0.5: 0.6463
+  alpha_bn  alpha 0.75: 0.6412
+{
+ "pcbn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "pcbn_iid": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "ubbn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0
+ },
+ "alpha_bn": {
+  "lr": 0.001,
+  "steps": 20,
+  "lam": 1.0,
+  "kappa": 80.0,
+  "alpha": 0.5
+ }
+}
+done: outputs/sleep_summary.md, figures/sleep_results.png

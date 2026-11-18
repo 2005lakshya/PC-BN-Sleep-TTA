@@ -1,0 +1,3 @@
+seed 4 SC-mid  (31s)  source 0.674/0.664  alpha_bn 0.680/0.725
+seed 4 SC-old  (28s)  source 0.590/0.529  alpha_bn 0.605/0.623
+seed 4 ST      (13s)  source 0.598/0.481  alpha_bn 0.614/0.626

@@ -1,0 +1,3 @@
+seed 2 SC-mid  (335s)  source 0.652/0.676  bn 0.627/0.679  pcbn 0.673/0.705  pcbn_iid 0.670/0.708  ubbn 0.668/0.717
+seed 2 SC-old  (307s)  source 0.576/0.554  bn 0.507/0.552  pcbn 0.593/0.618  pcbn_iid 0.574/0.625  ubbn 0.569/0.626
+seed 2 ST      (124s)  source 0.536/0.512  bn 0.606/0.631  pcbn 0.623/0.663  pcbn_iid 0.624/0.678  ubbn 0.616/0.656
