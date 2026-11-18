@@ -59,18 +59,7 @@ OATTA; we use it as a component).
 
 ## 3. System architecture
 
-```mermaid
-flowchart LR
-    A["🌙 New night<br/>EEG, no labels"] --> B["Pre-process<br/>30-s pieces,<br/>scale signal"]
-    B --> C["1D CNN<br/>trained on young<br/>people (frozen)"]
-    C --> D["⭐ PC-BN<br/>adapt BatchNorm<br/>stage by stage"]
-    D -- "re-run CNN (2 rounds)" --> C
-    D --> E["⭐ HMM<br/>smooth stage<br/>jumps"]
-    E --> F["📋 Sleep report<br/>a stage for<br/>every 30 s"]
-    style D fill:#F2B134,color:#1B1F4B
-    style E fill:#F2B134,color:#1B1F4B
-    style C fill:#5B4FCF,color:#fff
-```
+![System architecture](figures/architecture.png)
 
 **Model (`models/sleepnet.py`):** a small 1D CNN (~332k parameters) that reads one 30-second
 piece (3000 samples at 100 Hz) and outputs 5 stage scores.
